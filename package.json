@@ -41,7 +41,8 @@
     "cypress:run": "cypress run",
     "build": "tsc",
     "watch": "tsc -w",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@bahmutov/cy-rollup": "2.0.0",
