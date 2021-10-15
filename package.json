@@ -42,7 +42,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "semantic-release": "semantic-release",
-    "postinstall": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@bahmutov/cy-rollup": "2.0.0",
